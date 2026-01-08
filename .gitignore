@@ -1,0 +1,19 @@
+# Игнорируем папку target полностью, кроме JAR-файлов
+/target/*
+!/target/*.jar
+
+# Игнорируем конфиги IDE и прочее
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Игнорируем временные и системные файлы
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Игнорируем файлы сборки Maven, кроме pom.xml
+!/pom.xml

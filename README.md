@@ -25,7 +25,7 @@ mvn clean package
 Если [maven не установлен](
 https://maven.apache.org/install.html)
 
-После успешной сборки JAR-файл с зависимостями будет создан в папке [target/](https://github.com/Code-runner101/short_links_proj/tree/main/target)  
+После успешной сборки JAR-файл с зависимостями будет создан в папке [target/](https://github.com/Code-runner101/Financial_management_app/tree/main/target)  
 `fin_control_app-1.0-SNAPSHOT.jar`
 
 ### Запуск проекта
@@ -36,7 +36,7 @@ https://maven.apache.org/install.html)
 java -jar target/fin_control_app-1.0-SNAPSHOT.jar
 ```
 
-2. Вы скопировали готовый `fin_control_app-1.0-SNAPSHOT.jar` из [target/](https://github.com/Code-runner101/short_links_proj/tree/main/target) репозитория.  
+2. Вы скопировали готовый `fin_control_app-1.0-SNAPSHOT.jar` из [target/](https://github.com/Code-runner101/Financial_management_app/tree/main/target) репозитория.  
    Положите его в отдельную папку.
    В терминале перейдите в папку с JAR и выполните:
 ```bash
